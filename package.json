@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "name": "@workspaces/js",
+  "version": "0.0.1",
+  "description": "javascript workspace monorepo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerthayn/js.git"
+  },
+  "author": "Tyler Thayn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tylerthayn/js/issues"
+  },
+  "homepage": "https://github.com/tylerthayn/js#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "grunt": "^1.6.1",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-jsdoc": "^2.4.1",
+    "grunt-rollup": "^12.0.0",
+    "grunt-terser": "^2.0.0",
+    "jsdoc": "^4.0.4"
+  },
+  "workspaces": [
+    "packages/@docs/ink-docstrap",
+    "packages/@js/*"
+  ]
+}

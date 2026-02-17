@@ -1,0 +1,15 @@
+{
+  "name": "@docs/ink-docstrap",
+  "version": "0.1.0",
+  "description": "",
+  "main": ".",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyler Thayn",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.30.1",
+    "sanitize-html": "^2.13.0"
+  }
+}

@@ -1,0 +1,7 @@
+
+.tag-source {display:none;}
+
+#toc .toc-h3, #toc .toc-h1 {
+  font-size: 120%;
+  font-weight: bold;
+}
