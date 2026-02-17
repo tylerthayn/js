@@ -1,0 +1,12 @@
+/**
+ * @namespace global
+ *
+ * @borrows module:@js/Clone~Clone as Clone
+ * @borrows module:@js/Define~Define as Define
+ * @borrows module:@js/Extend.Extend as Extend
+ * @borrows module:@js/IsEqual~IsEqual as IsEqual
+ * @borrows module:@js/log.log as log
+ * @borrows module:@js/Merge.Merge as Merge
+ * @borrows module:@js/Mixin.Mixin as Mixin
+ * @borrows module:@js/Type~Type as Type
+ */

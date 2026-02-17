@@ -1,0 +1,23 @@
+{
+	"name": "@tyler.thayn/js",
+	"description": "",
+	"version": "2.0.0",
+	"author": {
+		"name": "Tyler Thayn",
+		"email": "ttsdesign@gmail.com",
+		"url": "http://ttscloud.net"
+	},
+	"main": "./core.min.mjs",
+	"type": "module",
+	"exports": {
+		".": {
+			"node": {
+				"import": "./core.min.mjs",
+				"require": "./core.min.cjs"
+			},
+			"module": "./core.min.mjs",
+			"iife": "./core.iife.min.js",
+			"umd": "./core.umd.min.js"
+		}
+	}
+}

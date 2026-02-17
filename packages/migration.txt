@@ -1,0 +1,22 @@
+
+
+Remove Files
+* README.md
+* jshint.rc
+* LICENSE-MIT
+* .gitignore
+* test/[!test.(cjs|mjs)]
+
+Edit Files
+* package.json
+	- Remove Author Url
+* Gruntfile.cjs
+	- Remove jshint and watch
+	- Remove iife and umd rollup targets
+	- Change es target to mjs
+
+* jsdoc.conf
+	- Remove "README.MD" from source include
+	- temlate => "../../@docs/ink-docstrap"
+
+

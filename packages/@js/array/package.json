@@ -1,0 +1,40 @@
+{
+  "name": "@js/array",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Array extensions",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "grunt",
+	"build:clean": "grunt clean",
+	"build:docs": "grunt docs",
+	"build:dist": "grunt dist"
+  },
+  "keywords": [
+    "array"
+  ],
+  "author": "Tyler Thayn",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "node": {
+        "import": "./src/index.js",
+        "require": "./dist/Array.min.cjs"
+      },
+      "module": "./src/index.js"
+    }
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "grunt": "^1.6.1",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-jsdoc": "^2.4.1",
+    "grunt-rollup": "^12.0.0",
+    "grunt-terser": "^2.0.0",
+    "jsdoc": "^4.0.4"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  }
+}

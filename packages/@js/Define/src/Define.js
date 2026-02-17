@@ -1,11 +1,10 @@
 /**
  * @module @js/Define
- * @version 0.0.4
+ * @version 0.1.1
  *
  * @license
  * Copyright (c) 2025 Tyler Thayn
  * Licensed under the MIT license.
- * @see {@link http://git.ttscloud.net/js/Define}
  */
 
 const dataDesc = new Set(['configurable', 'enumerable', 'get', 'set'])
