@@ -31,3 +31,11 @@ Operational Theories
 	? Place a dist
 
 
+Project pkgs roadmap
+====================
+@js/core
+
+@web/core
+@web/ui
+
+
