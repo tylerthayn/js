@@ -1,0 +1,33 @@
+
+PKG Build Process
+* Embedding data from package.json (Pre build processing...)
+  > README.MD
+  > index.js @module-@version
+  >> As it relates to auto NPM Release packages
+
+
++ process to generate docs portal including docs from multiple packages, automated
+
+
++ packages/@tyler.thayn/js
+	npm publishable version of @js/core min contents
+	scripts: copy files, bump, publish
+
+
++ packages/@tools/**** dev tools
+	bump +Similar, but pull version from dev to npm release
+	dev_publish: top level publish a dev package to an npm release package
+
+
+
+Operational Theories
+* @publishing NPM Versions:content copy configs
+	* Dev package.json (or possibly companion.json)
+		* files: what to copy
+		* commands:
+			* instructions for dev package (rebuild/bump)
+			* instructions to prepare npm version (copy/bump)
+
+	? Place a dist
+
+

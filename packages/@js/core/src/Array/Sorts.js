@@ -1,3 +1,5 @@
+import "../Object/Get.js"
+
 /** Small collection of sort functions for arrays
  * @namespace Array.Sorts
  */
@@ -17,7 +19,7 @@ if (!Array.Sorts) {
 				 * @param {String} key
 				 * @returns {Function}
 				 */
-				SortBy: (key) => {return (a, b) => {return a[key] - b[key]}}
+				SortBy: (key) => {return (a, b) => {return a.Get(key) - b.Get(key)}}
 			 },
 			/** String sorting Sort function generators
 			 * @namespace Array.Sorts.String
@@ -28,13 +30,13 @@ if (!Array.Sorts) {
 				 * @param {String} key
 				 * @returns {Function}
 				 */
-				SortBy: (key) => {return (a, b) => {return a[key].localCompare(b[key])}}
+				SortBy: (key) => {return (a, b) => {return a.Get(key).localeCompare(b.Get(key))}}
 			 },
 			/**
 			 * @function Array.Sorts.SortByName
 			 * @returns {Array}
 			 */
-			SortByName: (a, b) => {return a.name.localCompare(b.name)},
+			SortByName: (a, b) => {return a.name.localeCompare(b.name)},
 		}
 
 	 })

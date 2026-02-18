@@ -1,7 +1,11 @@
 require('@js/core')
 
-let a = [1,2,3]
-console.log(a.last)
+let users = require('./users.json')
 
-console.log(Clone(a))
+logj(users.sort(Array.Sorts.String.SortBy('name.first')))
+
+//let a = [1,2,3]
+//console.log(a.last)
+
+//console.log(Clone(a))
 

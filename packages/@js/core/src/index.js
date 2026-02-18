@@ -1,11 +1,6 @@
 /**
  * @module @js/core
- * @version 1.0.2
- *
- * @license
- * Copyright (c) 2025 Tyler Thayn
- * Licensed under the MIT license.
- * @see {@link http://git.ttscloud.net/js/core}
+ * @version 2.0.0
  *
  * @borrows Clone
  * @borrows Define
@@ -16,6 +11,10 @@
  * @borrows Merge
  * @borrows Mixin
  * @borrows Type
+ *
+ * @todo tutorial: Extend-Merge-Mixin Usage
+ * @todo tutorial: Array.Handle() & Array.Some() Usage
+ * @todo Object versions of Handle and Some iterations?
  */
 
 import "./Array/index.js"

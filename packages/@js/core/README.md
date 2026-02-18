@@ -1,18 +1,46 @@
-# @js/core
+# @js/core V2.0.0
 
+## Usage
 
-
-## Getting Started
-### Install: `npm install @js/core`
-### Usage
-#### Node/CJS
+### Node
 ```javascript
-let { core } = require('@js/core');
+require('@js/core');
 ```
-#### ESM Import
 ```javascript
-import { core } from "@js/core";
+import "@js/core";
 ```
+
+
+### Browser
+#### IIFE
+```html
+<script src="https://jsdelvr.net/npm/@tyler.thayn/js/dist/core.iife.min.js"></script>
+```
+
+#### UMD
+```javascript
+require({
+	paths: {
+		'@js/core': 'https://jsdelvr.net/npm/@tyler.thayn/js/dist/core.umd.min.js'
+	}
+}, ['@js/core'], () => {
+
+})
+```
+
+#### Module
+```javascript
+import "https://jsdelvr.net/npm/@tyler.thayn/js/dist/core.min.mjs";
+```
+```javascript
+import('https://jsdelvr.net/npm/@tyler.thayn/js/dist/core.min.mjs').then(() => {
+
+})
+```
+
+
+### GoogleAppScript
+Create a new project script file and copy the contents of the iife dist file
 
 ## Documentation
 _(Coming soon)_
@@ -20,12 +48,9 @@ _(Coming soon)_
 ## Examples
 _(Coming soon)_
 
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
-
 ## Release History
 _(Nothing yet)_
 
 ## License
-Copyright (c) 2025 Tyler Thayn
+Copyright (c) 2026 Tyler Thayn
 Licensed under the MIT license.

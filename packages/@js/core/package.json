@@ -26,20 +26,31 @@
 		"@docs/ink-docstrap": "^1.0.0",
 		"@rollup/plugin-commonjs": "^28.0.2",
 		"@rollup/plugin-node-resolve": "^16.0.0",
+		"@tools/bump": "^0.0.1",
+		"better-docs": "^2.7.3",
 		"grunt": "^1.6.1",
 		"grunt-contrib-clean": "^2.0.1",
 		"grunt-jsdoc": "^2.4.1",
 		"grunt-rollup": "^12.0.0",
 		"grunt-terser": "^2.0.0",
+		"ink-docstrap": "^1.3.2",
 		"jsdoc": "^4.0.4",
-		"rollup-plugin-polyfill-node": "^0.13.0"
+		"jsdoc-fresh": "^5.0.2",
+		"rollup-plugin-polyfill-node": "^0.13.0",
+		"tui-jsdoc-template": "^1.2.2"
 	},
 	"keywords": [
 		"core"
 	],
 	"scripts": {
 		"build": "grunt",
-		"build:docs": "grunt docs"
+		"build:docs": "grunt docs",
+		"bump": "bump",
+		"bump:minor": "bump --minor",
+		"bump:major": "bump --major",
+		"test": "npm run test:cjs && npm run test:mjs",
+		"test:cjs": "node test/test.cjs",
+		"test:mjs": "node test/test.mjs"
 	},
 	"type": "module",
 	"exports": {

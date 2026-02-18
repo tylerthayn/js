@@ -1,0 +1,19 @@
+{
+  "name": "@tools/bump",
+  "version": "0.0.1",
+  "description": "",
+  "main": "bump.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "bin": {
+    "bump": "bump.mjs"
+  },
+  "author": "Tyler Thayn",
+  "license": "MIT",
+  "dependencies": {
+    "@js/core": "^2.0.0",
+    "commander": "^14.0.3"
+  }
+}

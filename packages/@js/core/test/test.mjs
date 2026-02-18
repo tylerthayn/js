@@ -1,5 +1,7 @@
 import "@js/core";
 
+import users from './users.json' with { type: 'json' };
+
 /*
 let a = [1,2,3]
 log(a.last)
@@ -27,5 +29,7 @@ logj = new logj('TTT')
 logj('hi')
 logj({name: 'TTT'})
 
+
+logj(users.sort(Array.Sorts.String.SortBy('name.first')))
 
 

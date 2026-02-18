@@ -1,0 +1,167 @@
+[
+  {
+    "id": 82338,
+    "uuid": "16b7971b-61cd-4e96-a834-ff9859ffcd46",
+    "name": {
+      "first": "Bentley",
+      "last": "Poole"
+    },
+    "email": "bentleypoole@sensate.com",
+    "age": 18,
+    "rating": 0.0174
+  },
+  {
+    "id": 86783,
+    "uuid": "04174761-4201-47dd-8410-fea170e09a14",
+    "name": {
+      "first": "Marisa",
+      "last": "Soto"
+    },
+    "email": "marisasoto@sensate.com",
+    "age": 19,
+    "rating": 5.7875
+  },
+  {
+    "id": 67843,
+    "uuid": "7fefcc14-a4aa-4842-85b8-20a30e494d23",
+    "name": {
+      "first": "Rose",
+      "last": "Woodward"
+    },
+    "email": "rosewoodward@sensate.com",
+    "age": 20,
+    "rating": 7.3836
+  },
+  {
+    "id": 28854,
+    "uuid": "4ef0fc7a-e99c-47f7-bffa-2afff2c74cec",
+    "name": {
+      "first": "Jeannine",
+      "last": "Duke"
+    },
+    "email": "jeannineduke@sensate.com",
+    "age": 21,
+    "rating": 2.8143
+  },
+  {
+    "id": 52678,
+    "uuid": "a6353788-1413-4c8a-809b-ffa34bcbce37",
+    "name": {
+      "first": "Roseann",
+      "last": "Buck"
+    },
+    "email": "roseannbuck@sensate.com",
+    "age": 22,
+    "rating": 8.698
+  },
+  {
+    "id": 89265,
+    "uuid": "7b800091-7ae3-4477-9b8d-3d2974f2b42a",
+    "name": {
+      "first": "Evangeline",
+      "last": "Pratt"
+    },
+    "email": "evangelinepratt@sensate.com",
+    "age": 23,
+    "rating": 5.4396
+  },
+  {
+    "id": 89082,
+    "uuid": "2b6877c0-cfd4-47aa-865e-38c02c0492dd",
+    "name": {
+      "first": "Susanne",
+      "last": "Barker"
+    },
+    "email": "susannebarker@sensate.com",
+    "age": 24,
+    "rating": 5.6462
+  },
+  {
+    "id": 85575,
+    "uuid": "17f96dbc-e1f0-46ab-9319-9ff02396fcc2",
+    "name": {
+      "first": "Mariana",
+      "last": "Vang"
+    },
+    "email": "marianavang@sensate.com",
+    "age": 25,
+    "rating": 5.0192
+  },
+  {
+    "id": 85764,
+    "uuid": "15a61a89-1070-4906-bf5c-7c66f43229b5",
+    "name": {
+      "first": "Sykes",
+      "last": "Blake"
+    },
+    "email": "sykesblake@sensate.com",
+    "age": 26,
+    "rating": 5.7926
+  },
+  {
+    "id": 99056,
+    "uuid": "a44343f2-d791-49fd-a4ed-e9074582a259",
+    "name": {
+      "first": "Mccall",
+      "last": "Neal"
+    },
+    "email": "mccallneal@sensate.com",
+    "age": 27,
+    "rating": 2.11
+  },
+  {
+    "id": 93083,
+    "uuid": "175a5cda-f792-44c8-b0c5-aa21d348c7f8",
+    "name": {
+      "first": "Kelli",
+      "last": "Richmond"
+    },
+    "email": "kellirichmond@sensate.com",
+    "age": 28,
+    "rating": 6.7914
+  },
+  {
+    "id": 2372,
+    "uuid": "9d070ddf-f026-452d-97d0-753778e907fa",
+    "name": {
+      "first": "Mendoza",
+      "last": "Rasmussen"
+    },
+    "email": "mendozarasmussen@sensate.com",
+    "age": 29,
+    "rating": 9.8763
+  },
+  {
+    "id": 29320,
+    "uuid": "68895aed-34ce-4770-b6fd-ae30cad7507c",
+    "name": {
+      "first": "Wilkins",
+      "last": "Jensen"
+    },
+    "email": "wilkinsjensen@sensate.com",
+    "age": 30,
+    "rating": 6.0672
+  },
+  {
+    "id": 15715,
+    "uuid": "0070c052-cad8-4c7f-bcf6-5bce62f70490",
+    "name": {
+      "first": "Eula",
+      "last": "Wolf"
+    },
+    "email": "eulawolf@sensate.com",
+    "age": 31,
+    "rating": 3.5536
+  },
+  {
+    "id": 119372,
+    "uuid": "8d7e0ec0-00bd-4cfd-b2fb-f5cb1aa457d2",
+    "name": {
+      "first": "Carson",
+      "last": "Craig"
+    },
+    "email": "carsoncraig@sensate.com",
+    "age": 32,
+    "rating": 8.9493
+  }
+]

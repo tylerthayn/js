@@ -4,9 +4,11 @@
   "version": "0.0.1",
   "description": "javascript workspace monorepo",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"build:docs": "grunt docs"
+    "bump": "bump",
+    "build:docs": "grunt docs"
   },
   "repository": {
     "type": "git",
@@ -32,6 +34,10 @@
   },
   "workspaces": [
     "packages/@docs/ink-docstrap",
-    "packages/@js/core"
-  ]
+    "packages/@js/core",
+    "packages/@tools/bump"
+  ],
+  "dependencies": {
+    "@tools/bump": "^0.0.1"
+  }
 }

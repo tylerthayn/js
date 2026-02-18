@@ -18,7 +18,7 @@ class Listener {
 }
 
 
-/** EE
+/** 
  * @class EventEmitter
  * @param {Object} [ctx] - will Mixin EventEmitter to ctx
  * @returns {EventEmitter}
